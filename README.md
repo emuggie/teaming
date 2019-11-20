@@ -2,11 +2,11 @@
 Single IPC channel shared with multiples.
 
 ## Table on Contents
-### Intro
-### Prerequisite
-### Installation
-### Usage
-### Concept
+#### Intro
+#### Prerequisite
+#### Installation
+#### Usage
+#### Concept
 
 ## Intro
 This module developed to test efficient message exchanges between multiple processes, threads.
@@ -16,11 +16,21 @@ Concept and mechanisms are described below.
 This module was developed on linux enviroment. Windows, OS X Hasn't tested yet.
 
 ## Installation
+Npm distribution is on progress. 
 ```
 npm i teaming
 ```
 
 ## Usage
+There are two test option available.
+```
+# Test with local process communications.
+npm test --local
+
+#Test with Express app.
+npm test --server
+```
+
 ### Traditional Method
 
 ```javascript
@@ -70,5 +80,6 @@ teamSocket.write('data');
 ```
 
 ## Concept
+Will be updated soon.
 
 
